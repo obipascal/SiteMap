@@ -13,7 +13,7 @@
   When you have successfully install the lib package 
   initalize as follows:
   
-   ```
+   ```PHP
    <?php
 
     namespace BS\Controllers;
@@ -52,6 +52,8 @@
 ## This will be the output saved as: 
 sitemap/sitmap.xml
 
+```XML 
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -73,5 +75,6 @@ sitemap/sitmap.xml
     <changefreq>always</changefreq>
   </url>
 </urlset>
+```
 
  
