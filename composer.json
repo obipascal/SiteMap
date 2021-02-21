@@ -1,0 +1,13 @@
+{
+    "name": "obitechinvent/simplesitemapbuilder",
+    "description": "A simple and easy sitmap builder",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "OBI PASCAL B",
+            "email": "30573300+obipascal@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
