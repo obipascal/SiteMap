@@ -13,38 +13,40 @@
   When you have successfully install the lib package 
   initalize as follows:
   
-  <?php
+   `
+   <?php
 
-namespace BS\Controllers;
+    namespace BS\Controllers;
 
-use BS\Libraries\SiteMap\SiteMapBuilder;
+    use BS\Libraries\SiteMap\SiteMapBuilder;
 
-class Home extends BaseController
-{
-  public function index()
-  {
-    $sitemap_url = [
-      [
-        "link" => "https://www.bitmoservice.com",
-        "priority" => "0.80",
-      ],
-      [
-        "link" => "https://www.bitmoservice.com/categories",
-        "priority" => "0.80",
-      ],
-      [
-        "link" => "https://www.bitmoservice.com/services",
-        "priority" => "0.80",
-      ],
-    ];
+    class Home extends BaseController
+    {
+      public function index()
+      {
+        $sitemap_url = [
+          [
+            "link" => "https://www.bitmoservice.com",
+            "priority" => "0.80",
+          ],
+          [
+            "link" => "https://www.bitmoservice.com/categories",
+            "priority" => "0.80",
+          ],
+          [
+            "link" => "https://www.bitmoservice.com/services",
+            "priority" => "0.80",
+          ],
+        ];
 
-    $builder = SiteMapBuilder::IO($sitemap_url)->create_sitemap();
-    echo "--------------------< Processing.... >..........................<br>";
-    var_dump($builder);
-    echo "<br>--------------------< Done!      >...............................<br>";
-  }
-}
+        $builder = SiteMapBuilder::IO($sitemap_url)->create_sitemap();
+        echo "--------------------< Processing.... >..........................<br>";
+        var_dump($builder);
+        echo "<br>--------------------< Done!      >...............................<br>";
+      }
+    }
 
+   `
 
 
 ## This will be the output saved as: 
