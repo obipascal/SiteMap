@@ -13,7 +13,7 @@
   When you have successfully install the lib package 
   initalize as follows:
   
-   `
+   ```
    <?php
 
     namespace BS\Controllers;
@@ -45,8 +45,8 @@
         echo "<br>--------------------< Done!      >...............................<br>";
       }
     }
-
-   `
+   
+   ```
 
 
 ## This will be the output saved as: 
