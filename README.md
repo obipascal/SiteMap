@@ -6,7 +6,7 @@
   In other to start using this package you need to install it by typing this command in your terminal. This tutorial assumes you already have composer installed
   if not just grap it @ https://getcomposer.org/download/
   
-  composer require obitechinvent/simplesitemapbuilder
+  `composer require obitechinvent/simplesitemapbuilder`
   
   ## Example 
   
